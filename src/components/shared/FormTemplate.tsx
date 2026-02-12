@@ -58,7 +58,7 @@ export function FormTemplate<T extends FieldValues>({
 
   return (
     <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }}>
-      <Card className="w-full shadow-2xl border-white/20 bg-white/70 backdrop-blur-xl rounded-[2.5rem] overflow-hidden">
+      <Card className="w-full shadow-2xl border-white/20 bg-white/70 backdrop-blur-xl rounded-5xl overflow-hidden">
         <CardHeader className="p-8 pb-4">
           <CardTitle className="text-3xl font-black uppercase italic tracking-tighter text-zinc-950 leading-none">
             {title}

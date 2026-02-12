@@ -11,7 +11,8 @@ export function PasswordField<T extends FieldValues>({
   control,
   name,
   label,
-}: { control: Control<T>; name: Path<T>; label: string }) {
+  disabled = false,
+}: { control: Control<T>; name: Path<T>; label: string; disabled?: boolean }) {
   const [show, setShow] = React.useState(false);
 
   return (
@@ -27,6 +28,7 @@ export function PasswordField<T extends FieldValues>({
               id={name}
               type={show ? "text" : "password"}
               className={fieldState.error ? "border-destructive pr-10" : "pr-10"}
+                disabled={disabled}
             />
             <Button
               type="button"

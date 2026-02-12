@@ -45,7 +45,7 @@ export function PageWrapper({
           >
             <div className="relative">
                 <div className="absolute inset-0 bg-primary/20 blur-2xl rounded-full animate-pulse" />
-                <div className="bg-zinc-950 p-5 rounded-[2rem] text-white relative z-10 shadow-2xl">
+                <div className="bg-zinc-950 p-5 rounded-4xl text-white relative z-10 shadow-2xl">
                     <Loader2 className="h-8 w-8 animate-spin" />
                 </div>
             </div>
@@ -60,7 +60,7 @@ export function PageWrapper({
             animate={{ opacity: 1, scale: 1 }}
             className="flex-1 flex flex-col items-center justify-center p-6 text-center"
           >
-            <div className="bg-red-500/10 p-5 rounded-[2rem] text-red-600 mb-6 border border-red-500/20">
+            <div className="bg-red-500/10 p-5 rounded-4xl text-red-600 mb-6 border border-red-500/20">
                 <ShieldAlert size={40} />
             </div>
             <h2 className="text-3xl font-black uppercase italic tracking-tighter text-zinc-900 leading-none">

@@ -78,8 +78,7 @@ export function DataTable<T>({
       )}
 
       {/* Contenedor Principal (Efecto Vidrio) */}
-      <div className="bg-white/70 backdrop-blur-xl rounded-[2.5rem] shadow-2xl border border-white/20 overflow-hidden transition-all duration-300">
-        
+      <div className="bg-white/70 backdrop-blur-xl rounded-5xl shadow-2xl border border-white/20 overflow-hidden transition-all duration-300">        
         {/* Barra de búsqueda integrada */}
         <div className="p-6 pb-2">
           <div className="relative w-full max-w-md group">
